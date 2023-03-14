@@ -1,0 +1,53 @@
+
+.container{
+    margin-left: 50%;
+    
+}
+.box{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    font-size: small;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.skew{
+    background-color: blue;
+    transition: transform 2s,background-color 2s
+}
+
+.skew:hover{
+    background-color: green;
+    transform: skewX(30deg);
+}
+
+.scale{
+    background-color: green;
+    transition: transform 2s,background-color 2s
+}
+
+.scale:hover{
+    background-color: black;
+    transform: scale3d(2,2,2)
+}
+
+.rotate{
+    background-color: aqua;
+    transition: transform 2s,background-color 2s
+}
+
+.rotate:hover{
+    background-color: deeppink;
+    transform: rotate(360deg);
+}
+
+.translate{
+    background-color: red;
+    transition: transform 3s,background-color 2s
+}
+
+.translate:hover{
+    background-color: chartreuse;
+    transform: translateX(100px) rotate(360deg)
+}

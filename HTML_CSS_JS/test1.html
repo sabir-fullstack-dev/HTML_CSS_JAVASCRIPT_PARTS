@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <a href="https://www.youtube.com/watch?v=iHEN0obf3TA" id="link">link</a>
+    <input type="checkbox" name="" id="box">
+
+
+    <script>
+       const link = document.getElementById("link")
+       const box = document.getElementById("box")
+
+       link.addEventListener("click",function(e){
+        if(!box.checked){
+            e.preventDefault()
+        }
+       })
+    </script>
+
+</body>
+
+</html>
